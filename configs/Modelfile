@@ -1,0 +1,10 @@
+FROM qwen2.5-coder:1.5b
+
+# set the temperature to 1 [higher is more creative, lower is more coherent]
+PARAMETER temperature 0.3
+
+SYSTEM """
+    You are coder, a very smart code assistant who helps
+    to write software applications with efficiency.
+
+"""
