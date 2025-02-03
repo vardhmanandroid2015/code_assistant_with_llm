@@ -5,7 +5,7 @@ url = "http://localhost:11434/api/generate"
 
 data = {
     "model": "qwen2.5-coder:1.5b",
-    "prompt": "Write python program to write web srver in fastapi.",
+    "prompt": "Write python program to write web server in fastapi.",
 }
 
 response = requests.post(
